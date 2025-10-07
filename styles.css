@@ -144,6 +144,7 @@ nav a:hover:after {
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.5rem;
+    margin-left: auto;
 }
 
 /* ===== Hero Section ===== */
@@ -683,4 +684,5 @@ footer {
     }
 
 }
+
 
