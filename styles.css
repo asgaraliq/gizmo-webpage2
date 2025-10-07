@@ -392,6 +392,10 @@ nav a:hover:after {
     color: #666;
 }
 
+#testimonials {
+    display: none;
+}
+
 /* ===== Contact Section ===== */
 .contact {
     background-color: var(--light-bg);
@@ -677,4 +681,5 @@ footer {
     .form-group.half-width {
         flex: 1;
     }
+
 }
