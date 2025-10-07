@@ -38,7 +38,7 @@ document.getElementById('inquiryForm').addEventListener('submit', function(e) {
     const subject = `New Inquiry from ${name}`;
     const body = `Name: ${name}%0D%0APhone: ${phone}%0D%0AEmail: ${email}%0D%0ALocation: ${city}, ${state}%0D%0A%0D%0AMessage:%0D%0A${message}`;
     
-    window.location.href = `mailto:gizmotechcomputerservice@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:gizmotechitsolutions@gmail.com?subject=${subject}&body=${body}`;
     
     // Show success message
     alert('Thank you for your inquiry! A mail window should open for you to send your message.');
@@ -91,4 +91,5 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 // Add scroll event listener
+
 window.addEventListener('scroll', animateOnScroll);
